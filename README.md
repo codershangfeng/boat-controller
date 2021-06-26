@@ -1,5 +1,23 @@
 # boat-controller
 
+## Basic Idea
+
+Demo for defining custom resouces in kubernetes.
+
+There could be 2 options:
+
+1. CRDs
+1. API Aggregation
+
+As official claimed:
+>Aggregated APIs are subordinate API servers that sit behind the primary API server, which acts as a proxy. This arrangement is called API Aggregation (AA). To users, the Kubernetes API appears extended.
+
+>CRDs allow users to create new types of resources without adding another API server. You do not need to understand API Aggregation to use CRDs.
+
+Each of them should shows its flexibility and robus at some level.
+
+In this demo project, we will try to explore both of them.
+
 ## How to curl Local Docker Kubernetes api-server
 
 The mTLS is enabled on Kubernetes api-server.
