@@ -1,0 +1,7 @@
+apiVersion: codershangfeng.github.com/v1
+kind: Boat
+metadata:
+  name: example-boat
+spec:
+  name: example-boat-foo
+  image: "foo:latest" 
