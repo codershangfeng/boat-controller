@@ -4,6 +4,8 @@
 
 Demo for defining custom resouces in kubernetes.
 
+Referring to official doc - [Extending Kubernetes](https://kubernetes.io/docs/concepts/extend-kubernetes/)
+
 There could be 2 options:
 
 1. CRDs
